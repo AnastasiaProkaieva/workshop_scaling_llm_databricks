@@ -4,8 +4,7 @@ This repository was created as a supporting material around scaling your GenAI(L
 
 ## Structure 
 The repository is divided into multiple folders:
-- databricks_llm
-> 
+- databricks_llm (utils and scripts used) 
 - ds_configs (configuration files for Deep Speed (for distributed training))
 - notebooks
   - data_prep 
