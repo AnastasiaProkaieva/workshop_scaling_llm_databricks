@@ -21,12 +21,13 @@ The repository is divided into multiple folders:
 This code has been tested on the following cloud provider's instances: 
 | Cloud Provider | Instance Type | GPU's RAM | Multi Node | Comments |
 | --- | --- | --- | --- | --- |
-| AWS | A10 | - | - | - |
-| AWS | 4*A10 | - | - | - |
-| AWS | A100 | - | - | - |
-| Azure | 4*A10 | - | - | - |
-| Azure | A100 | - | - | - |
-| Azure | V100 | - | - | Does not support low precision |
+| AWS | A10 | 24 Gb | - | - |
+| AWS | A10(4GPU) | 4*24 Gb | - | - |
+| AWS | A100(8GPU) | 320 Gb | - | - |
+| Azure | A10(1 GPU) | 24 Gb | - | - |
+| Azure | A10(2 GPU) | 48 Gb | - | - |
+| Azure | A100(1 GPU) | 40 Gb | - | - |
+| Azure | V100(1 GPU) | 16 Gb | - | Does not support low precision |
 
 
 ### Contributors: 
