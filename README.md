@@ -20,8 +20,8 @@ The repository is divided into multiple folders:
 ## Important Notes 
 This code has been tested on the following cloud provider's instances: 
 | Cloud Provider | Instance Type | GPU's RAM | Comments |
-| --- | --- | --- | --- | --- |
-| AWS | A10 | 24 Gb | - | - |
+| --- | --- | --- | --- |
+| AWS | A10(1 GPU) | 24 Gb | - | - |
 | AWS | A10(4GPU) | 4*24 Gb | - |
 | AWS | A100(8GPU) | 320 Gb | - |
 | Azure | A10(1 GPU) | 24 Gb |  - |
