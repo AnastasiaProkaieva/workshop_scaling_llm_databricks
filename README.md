@@ -10,11 +10,12 @@ The repository is divided into multiple folders:
   - data_prep 
   - composer_library 
   - optimized_inference
-  - prompt_engineering
+  - prompt_engineering (work in progress) 
   - vectordb_rag
   - gpu_serving
-  - mlflow_gateway
+  - mlflow_gateway (work in progress)
   - ds_fine_tuning
+  - model_serving (work in progress)
 - old_notebooks
 
 ## Important Notes 
@@ -28,6 +29,11 @@ This code has been tested on the following cloud provider's instances:
 | Azure | A10(2 GPU) | 48 Gb | - |
 | Azure | A100(1 GPU) | 40 Gb | - |
 | Azure | V100(1 GPU) | 16 Gb | - | Does not support low precision |
+
+## Resources
+
+1) Official ML Examples from the Databricks on LLM's : https://github.com/databricks/databricks-ml-examples/blob/master/llm-tutorials/batch-inference/transformer-batch-inference.ipynb
+2) Model Serving examples : https://github.com/ahdbilal/Databricks-GPU-Serving-Examples/
 
 
 ### Contributors: 
